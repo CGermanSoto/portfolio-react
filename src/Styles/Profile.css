@@ -1,0 +1,13 @@
+.profile-img {
+    width: 450px;
+    border-radius: 50%;
+}
+
+.profile-img-container {
+    border: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: aliceblue;
+}

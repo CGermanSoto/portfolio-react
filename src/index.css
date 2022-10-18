@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #242221;
 }
 
 code {
@@ -12,7 +13,3 @@ code {
     monospace;
 }
 
-
-.App {
-  background-color: black;
-}
