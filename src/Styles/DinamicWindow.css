@@ -1,12 +1,13 @@
 .window-container{
     background-color: tomato;
-    width: 40%;
+    width: 55%;
+    height: 85%;
     max-width: 100vw;
     max-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px;
 }
 
 

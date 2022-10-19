@@ -6,4 +6,7 @@
 
 .body-container {
   display: flex;
+  /* background-color: wheat; */
+  height: 500px;
+  align-items: center;
 }
