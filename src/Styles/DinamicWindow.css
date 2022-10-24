@@ -6,8 +6,17 @@
     max-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    color: aliceblue;
+}
+
+.window-menu {
+    background-color: aliceblue;
+}
+
+.window-title-content-container{
+    background-color: wheat;
 }
 
 
