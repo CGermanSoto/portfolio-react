@@ -1,6 +1,7 @@
 import './App.css';
 import Profile from './Components/Profile';
 import DinamicWindow from './Components/DinamicWindow';
+import Footer from './Components/FooterButton';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <DinamicWindow />
       </div>
       <div className='footer-container'>
-
+        <Footer />
       </div>
       
     </div>

@@ -6,7 +6,17 @@
 
 .body-container {
   display: flex;
-  /* background-color: wheat; */
   height: 500px;
   align-items: center;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  align-items:center;
+  align-content: center;
 }
