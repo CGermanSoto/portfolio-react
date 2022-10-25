@@ -10,5 +10,9 @@
     align-items: center;
 }
 
+.window-title {
+    background-color: aliceblue;
+    padding-top: 0;
+}
 
   
