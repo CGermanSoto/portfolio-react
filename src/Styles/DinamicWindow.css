@@ -1,27 +1,20 @@
 .window-container{
-    background-color: tomato;
-    width: 55%;
-    height: 85%;
+    width: 50%;
+    height: 80%;
     max-width: 100vw;
     max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    color: aliceblue;
-}
-
-.window-menu {
-    background-color: aliceblue;
-}
-
-.window-title-content-container{
-    background-color: wheat;
+    background-color: darkslategray;
 }
 
 .window-title {
-    background-color: aliceblue;
     padding-top: 0;
+    display: flex;
+    align-items: flex-start;
+    text-align: right;
+    width: 100%;
 }
 
   

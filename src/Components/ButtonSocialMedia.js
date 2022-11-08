@@ -1,12 +1,13 @@
 import React from "react";
-import ButtonSocialMediaCss from './Stles/ButtonSocialMediaCss.css';
+import '../Styles/ButtonSocialMediaCss.css';
 
 function ButtonSocialMedia(props){
     return (
         <>
         <img
             className="img-button"
-            src={require(`../img/${props.imagen}.png`)}
+            src={require(`./img/${props.imagen}.png`)}
+            alt='SocialMedia'
         />
         </>
     );

@@ -6,7 +6,7 @@ function Profile(){
         <div className="profile-img-container">
             <img
                 className='profile-img' 
-                src={require('../img/profile-img.jpg')}
+                src={require('./img/profile-img.jpg')}
                 alt='profile' />
         </div>
     );
