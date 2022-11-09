@@ -1,21 +1,25 @@
 .iconFooter {
-    width: 20%;
+    width: 34px;
     filter: invert(98%) sepia(2%) saturate(2784%) hue-rotate(308deg) brightness(99%) contrast(105%);
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .iconFooter:hover {
     transform: scale(1.4);
     transition: 0.3s;
+    position: relative;
+    filter: invert(42%) sepia(49%) saturate(710%) hue-rotate(315deg) brightness(105%) contrast(101%);
 }
 
 .footer-container {
-    max-width: 100vw;
-    height: 100px;
+    width: 100vw;
+    height: 60px;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    margin-top:50px;
+    text-align: center;
     position: absolute;
     bottom: 0;
 }

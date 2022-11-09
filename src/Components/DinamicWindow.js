@@ -9,12 +9,11 @@ function Window(){
     return (
         <>
         <div className="window-container">
-            <h1 className="window-title">Ger Developer</h1>
             <div className="window-content-container">
                 <BrowserRouter>
                     <Routes>
                         <Route path='/AboutMe' element={<AboutMe />}/>
-                        <Route path='/Home' element={<Home />}/>
+                        <Route path='/' element={<Home />}/>
                     </Routes>
                 </BrowserRouter>   
             </div>

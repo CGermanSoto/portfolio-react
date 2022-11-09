@@ -7,7 +7,7 @@ import Footer from './Components/FooterButton';
 function App() {
   return (
     <div className="App">
-      <div className='body-container'>
+      <div className='body-container'>      
         <Profile />
         <DinamicWindow />
       </div>

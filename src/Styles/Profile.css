@@ -1,12 +1,13 @@
 .profile-img {
     border-radius: 50%;
-    width: 60%;
+    width: 50%;
 }
 
 .profile-img-container {
-    border: 50%;
     display: flex;
-    /* background-color: aliceblue; */
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 60%;
 }

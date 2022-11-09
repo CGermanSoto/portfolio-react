@@ -1,3 +1,25 @@
-.Home {
+.title {
+    font-size: 100px;
     color: #FAEDF0;
+    font-weight: 400;
+}
+
+.p {
+    font-size: 35px;
+    color: #FAEDF0;
+    font-weight: 100;
+}
+
+
+.red {
+    color: #F05454;
+}
+
+.red:hover {
+    color: #C84545;
+    cursor: pointer;
+}
+
+.llaves {
+    font-size: 40px;
 }
