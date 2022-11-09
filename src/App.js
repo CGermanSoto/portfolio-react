@@ -11,10 +11,7 @@ function App() {
         <Profile />
         <DinamicWindow />
       </div>
-      <div className='footer-container'>
-        <Footer />
-      </div>
-      
+      <Footer />
     </div>
   );
 }

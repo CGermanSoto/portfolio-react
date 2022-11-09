@@ -1,14 +1,15 @@
-import React from "react";;
+import React from "react";
+import '../Styles/NavBar.css';
 
 function NavBar(){
     return (
-        <>
-         <button><a href="/Home">Home</a></button>
-         <button><a href="/AboutMe">About Me</a></button>
-         <button><a href="/Experience">Experience</a></button>
-         <button><a href="/Proyects">Proyects</a></button>
-         <button><a href="/Contact">Contact</a></button>
-        </>
+        <div className="navBar-container">
+         <button className="myButton"><a href="http://localhost:3000/Home">Home</a></button>
+         <button className="myButton"><a href="http://localhost:3000/AboutMe">About me</a></button>
+         <button className="myButton"><a href="http://localhost:3000/Home">My Experience</a></button>
+         <button className="myButton"><a href="http://localhost:3000/Home">My Proyects</a></button>
+         <button className="myButton"><a href="http://localhost:3000/Home">Contact me!</a></button>
+        </div>
     );
 }
 

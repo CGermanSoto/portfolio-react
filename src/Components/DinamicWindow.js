@@ -9,13 +9,13 @@ function Window(){
     return (
         <>
         <div className="window-container">
-            <h1 className="window-title">Hola, soy Ger</h1>
+            <h1 className="window-title">Ger Developer</h1>
             <div className="window-content-container">
                 <BrowserRouter>
                     <Routes>
                         <Route path='/AboutMe' element={<AboutMe />}/>
                         <Route path='/Home' element={<Home />}/>
-                        </Routes>
+                    </Routes>
                 </BrowserRouter>   
             </div>
             <div className="window-menu">

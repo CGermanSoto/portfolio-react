@@ -1,0 +1,6 @@
+.aboutMe-container {
+    overflow-y: scroll;
+    height: 270px;
+	max-width: 100%;
+    color: #FAEDF0;
+}
