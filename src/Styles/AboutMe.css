@@ -1,9 +1,10 @@
 .aboutMe-container {
-    overflow-y: scroll;
-    height: 100%;
     color: #FAEDF0;
+    height: 100%;
 }
 
-.parrafo {
-    font-size: 10px;
+.parrafoAboutMe {
+    max-height: 70%;
+    overflow-y: scroll;
 }
+

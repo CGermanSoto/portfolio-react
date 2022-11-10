@@ -4,11 +4,11 @@ import '../Styles/NavBar.css';
 function NavBar(){
     return (
         <div className="navBar-container">
-         <button className="myButton"><a href="http://localhost:3000">Home</a></button>
-         <button className="myButton"><a href="http://localhost:3000/AboutMe">About me</a></button>
-         <button className="myButton"><a href="http://localhost:3000/">Experience</a></button>
-         <button className="myButton"><a href="http://localhost:3000/">Proyects</a></button>
-         <button className="myButton"><a href="http://localhost:3000/">Contact</a></button>
+         <button className="myButton"><a href="/">Home</a></button>
+         <button className="myButton"><a href="/AboutMe">About me</a></button>
+         <button className="myButton"><a href="/Education">Education</a></button>
+         <button className="myButton"><a href="/Experience">Work Experience</a></button>
+         <button className="myButton"><a href="/Proyects">My proyects</a></button>
         </div>
     );
 }

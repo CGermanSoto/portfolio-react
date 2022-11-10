@@ -14,10 +14,10 @@ function Footer(){
             <a href="https://walink.co/38fd18" target='_blank'>
                 <img className='iconFooter' src={require('./img/whatsapp.png')}></img>
             </a>
-            <a href="https://twitter.com/CGermanSoto" target='_blank'>
-                <img className='iconFooter' src={require('./img/gorjeo.png')}></img>
-            </a>
             <a href="#" target='_blank'>
+                <img className='iconFooter' src={require('./img/cv.png')}></img>
+            </a>
+            <a href="/Contact">
                 <img className='iconFooter' src={require('./img/correo-electronico.png')}></img>
             </a>
         </div>

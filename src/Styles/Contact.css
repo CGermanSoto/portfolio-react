@@ -1,0 +1,60 @@
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 85%;
+}
+
+.title-contact{
+    font-size: 35px;
+    color: #FAEDF0;
+    font-weight: 100;
+    width: 10%;
+}
+
+.title-contact:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    position: relative;
+    filter: invert(42%) sepia(49%) saturate(710%) hue-rotate(315deg) brightness(105%) contrast(101%);
+}
+
+.form-contact{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.input {
+    width: 71%;
+    height: 20px;
+    background-color: unset;
+    border: none;
+    color: #FAEDF0;
+    border-bottom: 1px #ffffffc4 solid;
+}
+
+::placeholder{
+    color: #faedf03b;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+.textarea{
+    height: 100px;
+    resize: none;
+}
+
+.textarea::placeholder {
+    text-align:start;
+    transform: translateY(70px);
+}
+
+.submit {
+    width: 150px;
+}
