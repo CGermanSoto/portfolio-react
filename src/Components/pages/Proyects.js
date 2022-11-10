@@ -6,58 +6,36 @@ function Proyects(){
         <div className="aboutMe-container">
             <h1 className="window-title p">Mis <span className="red mi">proyectos</span></h1>
             <div className="parrafoAboutMe">
-
-                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
-                                Hola, te cuento un poco de mi...<br/>
-
-                Soy German Soto, vivo en Buenos Aires, CABA, desde el 2015. Nací en Corrientes Capital, el 13/05/1992 y hace ya un año y poco más descubrí la programación junto con la nueva oleada de personas interesadas en el mundo IT. Desde entonces nunca paré de estudiar, principalmente desarrollando en la rama BackEnd y enamorado de JavaScript.
-                <br/>
-                Formación:<br/>
-
-                Junio-2021<br/>
-                Cursando: Lic. en Sistemas de la Información de las organizaciones - Facultad de Ciencias Economicas - UBA
-                <br/>
-                Marzo-2021<br/>
-                CODO A CODO: Carrera de FrontEnd - HTML, CSS, JavaScript
-                <br/>
-                Agosto-2021<br/>
-                CODO A CODO: Carrera de BackEnd - JavaScript, NodeJs, ExpressJs, MongoDB
-                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
-                                Hola, te cuento un poco de mi...<br/>
-
-                Soy German Soto, vivo en Buenos Aires, CABA, desde el 2015. Nací en Corrientes Capital, el 13/05/1992 y hace ya un año y poco más descubrí la programación junto con la nueva oleada de personas interesadas en el mundo IT. Desde entonces nunca paré de estudiar, principalmente desarrollando en la rama BackEnd y enamorado de JavaScript.
-                <br/>
-                Formación:<br/>
-
-                Junio-2021<br/>
-                Cursando: Lic. en Sistemas de la Información de las organizaciones - Facultad de Ciencias Economicas - UBA
-                <br/>
-                Marzo-2021<br/>
-                CODO A CODO: Carrera de FrontEnd - HTML, CSS, JavaScript
-                <br/>
-                Agosto-2021<br/>
-                CODO A CODO: Carrera de BackEnd - JavaScript, NodeJs, ExpressJs, MongoDB
-                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
+                <div class="parent">
+                    <div class="div1">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo1.png')} /></a>
+                    </div>
+                    <div class="div2">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/contador-clics.png')} /></a> 
+                    </div>
+                    
+                    <div class="div3">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo2.png')} /></a>
+                    </div>
+                    <div class="div4">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo3.png')} /></a>
+                    </div>
+                    <div class="div5">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo1.png')} /></a>
+                    </div>
+                    <div class="div6">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo1.png')} /></a>
+                    </div>
+                    <div class="div7">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo1.png')} /></a>
+                    </div>
+                    <div class="div8">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo1.png')} /></a>
+                    </div>
+                    <div class="div9">
+                        <a href="https://github.com/CGermanSoto/testimonios-freecodecamp" target='_blank'><img className="img-proyect" src={require('../img/repo1.png')} /></a>
+                    </div>
+                </div>
             </div>
         </div>
     );

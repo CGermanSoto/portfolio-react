@@ -1,10 +1,18 @@
 .aboutMe-container {
     color: #FAEDF0;
     height: 100%;
+    width: 75%;
 }
 
 .parrafoAboutMe {
     max-height: 70%;
     overflow-y: scroll;
+}
+
+hr {
+    height: 0,1px;
+    width: 20%;
+    border-color: #F05454;
+    background-color: #F05454;
 }
 
