@@ -14,7 +14,7 @@ function Footer(){
             <a href="https://walink.co/38fd18" target='_blank'>
                 <img className='iconFooter' src={require('./img/whatsapp.png')}></img>
             </a>
-            <a href="#" target='_blank'>
+            <a href="./Cv">
                 <img className='iconFooter' src={require('./img/cv.png')}></img>
             </a>
             <a href="/Contact">

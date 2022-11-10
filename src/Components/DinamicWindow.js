@@ -8,6 +8,7 @@ import Experience from "./pages/Experiences";
 import Proyects from './pages/Proyects';
 import Education from './pages/Education';
 import Contact from './pages/Contact';
+import Cv from './pages/Cv';
 
 function Window(){
     return (
@@ -21,6 +22,7 @@ function Window(){
                         <Route path='/Proyects' element={<Proyects />}/>
                         <Route path='/Education' element={<Education />}/>
                         <Route path='/Contact' element={<Contact />}/>
+                        <Route path='/Cv' element={<Cv />}/>
                         <Route path='/' element={<Home />}/>
                     </Routes>
                 </BrowserRouter>   
