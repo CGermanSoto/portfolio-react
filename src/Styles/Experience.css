@@ -4,6 +4,7 @@
 
 .p-fecha {
     font-size: 0.9rem;
+    font-weight: 400;
 }
 
 .p-puesto {
@@ -12,4 +13,5 @@
 
 .p-funciones {
     font-size: 1rem;
+    font-weight: 400;
 }
