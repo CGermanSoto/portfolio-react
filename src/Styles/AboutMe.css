@@ -9,6 +9,11 @@
     overflow-y: scroll;
 }
 
+.aboutmeScroll {
+    overflow: hidden;
+    font-size: 0.9rem;
+}
+
 hr {
     height: 0,1px;
     width: 20%;

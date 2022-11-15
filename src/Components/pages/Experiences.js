@@ -6,58 +6,33 @@ function Experience(){
         <div className="aboutMe-container">
             <h1 className="window-title p">Mi <span className="red mi">experiencia</span> como programador</h1>
             <div className="parrafoAboutMe">
+                <div className="parrafo">
+                    <h1 className="p-titulo"><u>NTT DATA Europe & LATAM</u></h1>
+                    <h4 className="p-fecha red">Mayo - 2022 // Actualidad</h4>
+                    <h3 className="p-puesto"><i>Software Engineer Junior</i></h3>
+                    <h4 className="p-funciones">
+                        <span className="red">•</span> Desarrollo de funcionalidades en aplicaciones web utilizando
+                            principalmente java 7/8. Spring y Springboot, y ZK. <br /><br />
+                        <span className="red">•</span> Conexión a base de datos con Hibernate y
+                            Bases de datos en SQL. <br /><br />
+                        <span className="red">•</span> Integración con API REST.<br /><br />
+                        <span className="red">•</span>  Pruebas unitarias con JUnit. <br /><br />
+                        <span className="red">•</span>  Metodologías ágiles: Scrum.
+                    </h4>
+                </div>
 
-                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
-                                Hola, te cuento un poco de mi...<br/>
+                <br /><hr className="linea"/>
 
-                Soy German Soto, vivo en Buenos Aires, CABA, desde el 2015. Nací en Corrientes Capital, el 13/05/1992 y hace ya un año y poco más descubrí la programación junto con la nueva oleada de personas interesadas en el mundo IT. Desde entonces nunca paré de estudiar, principalmente desarrollando en la rama BackEnd y enamorado de JavaScript.
-                <br/>
-                Formación:<br/>
-
-                Junio-2021<br/>
-                Cursando: Lic. en Sistemas de la Información de las organizaciones - Facultad de Ciencias Economicas - UBA
-                <br/>
-                Marzo-2021<br/>
-                CODO A CODO: Carrera de FrontEnd - HTML, CSS, JavaScript
-                <br/>
-                Agosto-2021<br/>
-                CODO A CODO: Carrera de BackEnd - JavaScript, NodeJs, ExpressJs, MongoDB
-                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
-                                Hola, te cuento un poco de mi...<br/>
-
-                Soy German Soto, vivo en Buenos Aires, CABA, desde el 2015. Nací en Corrientes Capital, el 13/05/1992 y hace ya un año y poco más descubrí la programación junto con la nueva oleada de personas interesadas en el mundo IT. Desde entonces nunca paré de estudiar, principalmente desarrollando en la rama BackEnd y enamorado de JavaScript.
-                <br/>
-                Formación:<br/>
-
-                Junio-2021<br/>
-                Cursando: Lic. en Sistemas de la Información de las organizaciones - Facultad de Ciencias Economicas - UBA
-                <br/>
-                Marzo-2021<br/>
-                CODO A CODO: Carrera de FrontEnd - HTML, CSS, JavaScript
-                <br/>
-                Agosto-2021<br/>
-                CODO A CODO: Carrera de BackEnd - JavaScript, NodeJs, ExpressJs, MongoDB
-                <br/>
-                Octubre-2021<br/>
-                FreeCodeCamp: NodeJs, ExpressJs, MongoDB, JavaScript
-                <br/>
-                Enero-2021<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
-                Udemy: Carrera de BackEnd - NodeJs, ExpressJs, MongoDB<br/>
+                <div className="parrafo">
+                    <h1 className="p-titulo"><u>Developer Web Autonomo</u></h1>
+                    <h4 className="p-fecha red">Octubre - 2020 // Mayo - 2022</h4>
+                    <h4 className="p-funciones">
+                    <span className="red">•</span>  Desarrollador web con JavaScript y ReactJs. <br /><br />
+                    <span className="red">•</span>  Conexión a base de datos con mongoose y
+                            Bases de datos NodeJs. <br /><br />
+                    <span className="red">•</span>  Integración y desarrollo de API.<br /><br />
+                    </h4>
+                </div>
             </div>
         </div>
     );
