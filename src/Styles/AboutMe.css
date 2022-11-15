@@ -7,11 +7,13 @@
 .parrafoAboutMe {
     max-height: 70%;
     overflow-y: scroll;
+    text-align: justify;
 }
 
 .aboutmeScroll {
     overflow: hidden;
     font-size: 0.9rem;
+    margin-top:100px;
 }
 
 hr {

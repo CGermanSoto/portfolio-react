@@ -55,33 +55,6 @@ function Education(){
                     </h4>
                 </div>
 
-                <br /><hr className="linea"/>
-
-                <div className="parrafo">
-                    <h4 className="p-fecha red">Agosto - 2022</h4>
-                    <h3 className="p-puesto">Desarrollo de APIs en JAVA con SpringBoot</h3>
-                    <h4 className="p-funciones">
-                        Curso de Java intermedio dictado por NTTDATA. <br /><br />
-                        <span className="red">•</span> Spring core <br /><br />
-                        <span className="red">•</span> Desarrollo e integración API REST con Spring<br /><br />
-                        <span className="red">•</span>  Spring Security <br /><br />
-                        <span className="red">•</span>  Springboot
-                    </h4>
-                </div>
-
-                <br /><hr className="linea"/>
-
-                <div className="parrafo">
-                    <h4 className="p-fecha red">Octubre - 2022</h4>
-                    <h3 className="p-puesto">Java Talent Camp - Intermedio</h3>
-                    <h4 className="p-funciones">
-                        Curso de Java intermedio dictado por NTTDATA. <br /><br />
-                        <span className="red">•</span> Spring core <br /><br />
-                        <span className="red">•</span> Desarrollo e integración API REST con Spring<br /><br />
-                        <span className="red">•</span>  Spring Security <br /><br />
-                        <span className="red">•</span>  Springboot
-                    </h4>
-                </div>
             </div>
         </div>
     );
