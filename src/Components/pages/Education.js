@@ -5,7 +5,7 @@ function Education(){
     return (
         <div className="aboutMe-container">
             <h1 className="window-title p">Mis <span className="red mi">estudios</span></h1>
-            <div className="parrafoAboutMe">
+            <div className="parrafoEducation">
                 <div className="parrafo">
                     <h4 className="p-fecha red">Octubre - 2022</h4>
                     <h3 className="p-puesto">Java Talent Camp - Intermedio</h3>

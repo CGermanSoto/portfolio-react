@@ -4,8 +4,8 @@ import '../../Styles/Experience.css';
 function Experience(){
     return (
         <div className="aboutMe-container">
-            <h1 className="window-title p">Mi <span className="red mi">experiencia</span> como programador</h1>
-            <div className="parrafoAboutMe">
+            <h1 className="window-title p">Mi <span className="red mi">experiencia</span></h1>
+            <div className="parrafoExperience">
                 <div className="parrafo">
                     <h1 className="p-titulo"><u>NTT DATA Europe & LATAM</u></h1>
                     <h4 className="p-fecha red">Mayo - 2022 // Actualidad</h4>

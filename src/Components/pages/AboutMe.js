@@ -5,7 +5,7 @@ function AboutMe(){
     return (
         <div className="aboutMe-container">
             <h1 className="window-title p">Un poco de <span className="red mi">mi</span></h1>
-            <div className="parrafoAboutMe aboutmeScroll">
+            <div className="parrafoAboutMe">
             • Bienvenido/a a mi <span className="red">portfolio</span>!<br />
                 <br /><hr className="linea"/>
                 Donde además de mostrar mi experiencia y habilidades dentro de la programación, también comparto algunas de las que son mis pasiones.

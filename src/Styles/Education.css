@@ -1,0 +1,14 @@
+.parrafoEducation {
+    overflow-y: scroll;
+    height: 70%;
+}
+
+.parrafoEducation::-webkit-scrollbar {
+    width: 8px;
+    
+}
+
+.parrafoEducation::-webkit-scrollbar-thumb{
+    background: #F05454; 
+    border-radius: 25px;
+  }

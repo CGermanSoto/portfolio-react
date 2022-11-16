@@ -15,3 +15,18 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+.parrafoExperience {
+    overflow-y: scroll;
+    height: 70%;
+}
+
+.parrafoExperience::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+.parrafoExperience::-webkit-scrollbar-thumb{
+    background: #F05454; 
+    border-radius: 25px;
+  }
