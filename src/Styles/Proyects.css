@@ -1,4 +1,4 @@
-.parent {
+.parrafoProyects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -41,10 +41,33 @@
     border-radius: 25px;
 }
 
-.texto {
+.div-card {
+    margin: 10px;
+    text-align: center;
+    width: 85%;
+    height: 85%;
+    border: 2px solid #F05454;
+    filter: opacity(40%);
+}
 
+.div-card:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+    cursor: pointer;
+    filter: opacity(170%);
+}
+
+.img-card {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.p-card {
+    font-size: 14px;
+}
+
+.button-card{
     font-size: 12px;
+    display: none;
 }
 
-.card{
-}
