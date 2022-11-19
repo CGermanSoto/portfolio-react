@@ -4,15 +4,21 @@ import '../../Styles/Cv.css';
 
 function Cv(){
     return (
-        <div className="cv-container">
-            <div>
-                <h1 className="first-title"> Curriculu<span className="red">m</span> Vita<span className="red">e</span> </h1>
+        <div className="aboutMe-container">
+        <h1 className="window-title p"> <span className="red mi">Mi</span> Curriculum Vitae</h1>
+        <div className="parrafoCv">
+            <div className="parrafo">
+                <h1 className="p-titulo"><u>Descargar PDF</u></h1>
+                
             </div>
-            <div className="div-options">
-                <h1 className="title-cv"><a href="#">Descargar<span className="red"></span></a></h1>
-                <h1 className="title-cv"><a href="#">Ver online <span className="red"></span></a></h1>
-            </div>  
+
+            <div className="parrafo">
+                <h1 className="p-titulo"><u>Ver online</u></h1>
+                
+            </div>
+            
         </div>
+    </div>
     );
 }
 

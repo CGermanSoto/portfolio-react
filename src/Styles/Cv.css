@@ -1,27 +1,8 @@
-.title-cv, .first-title {
-    color: aliceblue;
-    font-weight: 100;
-}
-
-.title-cv:hover {
-    transform: scale(1.2);
-    transition: 0.5s;
-    position: relative;
-    color: tomato;
-}
-
-.cv-container {
+.parrafoCv {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 78%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-}
-
-.div-options {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    height: 60%;
     width: 100%;
 }
