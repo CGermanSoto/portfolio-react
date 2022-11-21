@@ -30,3 +30,11 @@ a {
 	top:1px;
 	transition: 0.3s;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1090px) {
+	.navBar-container{
+		display: none;
+	}
+  }

@@ -11,3 +11,11 @@
     height: 100%;
     width: 60%;
 }
+
+/* Responsive */
+
+/* @media screen and (max-width: 360px) and (max-height:640px) {
+    .profile-img {
+        display: none;
+    }
+} */

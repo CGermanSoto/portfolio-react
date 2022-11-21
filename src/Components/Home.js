@@ -6,8 +6,13 @@ function Home(){
     const llavesB= '}';
     return (
         <div className="home-container">
-            <h1 className="title">Hola, soy <span className="red">Ger</span></h1>
-            <p className="p"><span className="llaves red">{llavesA}</span>Software Engineer<span className="llaves red">{llavesB}</span></p>
+            <h1 className="title">Hola, soy <span className="red ger">Ger</span></h1>
+            <img
+                className='profile-img-home' 
+                src={require('./img/profile-img.jpg')}
+                alt='profile' />
+            
+            <p className="p puesto"><span className="llaves red">{llavesA}</span>Software Engineer<span className="llaves red">{llavesB}</span></p>
         </div>
     );
 }

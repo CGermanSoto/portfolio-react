@@ -15,4 +15,8 @@
     height: 90%;
 }
 
+@media screen and (max-width: 360px), (max-heigth=640px) {
+
+}
+
   

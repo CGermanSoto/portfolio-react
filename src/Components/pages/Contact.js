@@ -38,10 +38,6 @@ function Contact(){
                </div>
             </form>
         </div>
-
-        <Popup className='popUp'>
-            
-        </Popup>
         </>
 
     

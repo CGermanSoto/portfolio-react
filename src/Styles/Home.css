@@ -24,3 +24,44 @@
 .llaves {
     font-size: 40px;
 }
+
+.profile-img-home {
+    display: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 880px) {
+	.profile-img-container {
+		display: none;
+	}
+
+    .home-container {
+        width: 790px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .profile-img-home {
+        display: flex;
+        width: 30%;
+        border-radius: 50%;
+    }
+  }
+
+@media screen and (max-width: 360px), (max-heigth=640px) {
+    .home-container {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+}
