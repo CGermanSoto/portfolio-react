@@ -16,8 +16,9 @@
 }
 
 .red:hover {
-    color: #C84545;
+    color: #F05454;
     cursor: pointer;
+    filter: contrast(150%);
 }
 
 .llaves {
