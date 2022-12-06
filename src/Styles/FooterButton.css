@@ -29,7 +29,6 @@
 @media screen and (max-width: 360px) and (max-height:640px) {
     .footer-container {
         display: none;
-
     }
 
     .profile-img-home {
@@ -51,4 +50,11 @@
     .puesto {
         font-size: 1.6rem;
     }
+}
+
+@media screen and (max-width: 375px), (max-heigth: 667px) {
+    .footer-container {
+        display: none;
+    }
+
 }

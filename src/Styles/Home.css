@@ -55,13 +55,33 @@
     }
   }
 
-@media screen and (max-width: 360px), (max-heigth=640px) {
+@media screen and (max-width: 360px), (max-heigth: 640px) {
     .home-container {
         width: 100%;
     }
 
     .title {
         font-size: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 375px), (max-heigth: 667px) {
+    .home-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .profile-img-home {
+        width: 70%;
+    }
+
+    .puesto {
+        font-size: 1.8rem;
     }
 
 }
